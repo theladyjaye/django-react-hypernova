@@ -1,6 +1,7 @@
 # Getting Started
 
 ## Install
+You will need to review the `example/webpack/README.md` as well.
 In your django settings, add `react_hypernova` to your installed apps.
 
 

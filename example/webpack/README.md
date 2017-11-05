@@ -2,8 +2,8 @@
 
 ## External Resources
 
-https://blog.larah.me/2017/04/10/react-server-side-rendering/
-https://github.com/airbnb/hypernova
+    - https://blog.larah.me/2017/04/10/react-server-side-rendering/
+    - https://github.com/airbnb/hypernova
 
 ## Locations
 
