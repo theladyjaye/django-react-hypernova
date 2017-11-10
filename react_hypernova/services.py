@@ -39,7 +39,7 @@ class ReactHypernovaComponent:
         # packet retransmission window.
         # http://www.pcvr.nl/tcpip/tcp_time.htm
         # http://www.hjp.at/doc/rfc/rfc2988.txt
-        timeout = getattr(settings, 'REACT_HYPERNOVA_TIMEOUT', default=6.05)
+        timeout = getattr(settings, 'REACT_HYPERNOVA_TIMEOUT', 6.05)
 
         try:
             res = requests.post(self.address, json=payload, timeout=timeout)

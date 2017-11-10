@@ -17,7 +17,7 @@ class Config(AppConfig):
     def ready(self):
         address = getattr(
             settings, "REACT_HYPERNOVA_ADDRESS",
-            default="http://localhost:8080/batch"
+            "http://localhost:8080/batch"
         )
 
         self.react_hypernova = ReactHypernova(
