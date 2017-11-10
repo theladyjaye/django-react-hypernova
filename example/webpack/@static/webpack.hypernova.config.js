@@ -19,7 +19,6 @@ module.exports = {
                 test: /\.tsx?/,
                 exclude: /node_modules/,
                 loader: 'awesome-typescript-loader',
-                // use: "awesome-typescript-loader",
                 query: {
                     // Use this to point to your tsconfig.json.
                     configFileName: './tsconfig.json'
@@ -28,6 +27,7 @@ module.exports = {
         ]
     },
     resolve: {
-        extensions: ['.ts', '.tsx']
-    },
+        extensions: [".webpack.js", "web.js", ".ts", ".tsx", ".js"],
+        modules: ["node_modules"]
+    }
 };
